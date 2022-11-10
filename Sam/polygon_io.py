@@ -11,7 +11,7 @@ start_day = '1577858400000'
 end_day = '1641016800000'
 
 # Amazon Ticker
-ticker = 'AMZN'
+ticker = 'WMT'
 
 # url to polygon.io data REST API
 url = f'https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{start_day}/{end_day}?adjusted=false&sort=asc&limit=10000&apiKey={polygon_key}'
