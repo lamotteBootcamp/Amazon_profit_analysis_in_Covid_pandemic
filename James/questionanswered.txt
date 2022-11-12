@@ -1,0 +1,10 @@
+The question that I wanted answered from our analysis was if Amazon had garnered a lot of it's success due to the Covid-19 Pandemic, would there have been a marked difference
+in their stock value change after the first Covid vaccination dosage was released on April 19, 2021. 
+
+Prior to the vaccination release all throughout the pandemic beginning from January 2020, there was a sizable and consistent increase in closing stock value for Amazon
+that nearly doubled it's worth over the course of the year. After the release of the vaccine, their stock appeared to flux rapidly for the first time in over a year, 
+with it ending at nearly the same value at the end of the 2021st year as it was at the time of the vaccine release. 
+
+This may be due to how people who were vaccinated no longer relied on deliveries, and were adamant about leaving quarantine. However, another contribution may have been 
+indicisivness of individuals in getting vaccinated, and there may have been concerns regarding mutations that would come out. At this time, more information is needed,
+but the release of the vaccine quite possibly contributed greatly to this fluxuation in stock value.
