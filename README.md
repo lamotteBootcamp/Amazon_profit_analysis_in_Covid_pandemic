@@ -1,7 +1,7 @@
 # Project1Team6
 Shared repository for Team 6
 
-
+Summary:
 We found an article stating that Amazon profits increased 220% throughout the pandemic. We want to analyze weekly Covid cases versus Amazon stock data to see if there's a correlation between increases in cases and rises in Amazon stock. We also wanted to compare this to Walmart's stock to see if there were any variations. 
 
 The questions we wanted answered were:
@@ -10,8 +10,7 @@ The questions we wanted answered were:
 3. Describing the effect of new covid cases and deaths on Amazon stock volume and weighted average price, which time offset(s) have the strongest correlation (r-value)?
 4. How do the trends in Covid statistics and Walmart stock values compare?
 
-------
-
+---------------------------------------------------------------
 
 1. Did the release of the vaccine have a strong impact on the correlation between new covid cases and new covid deaths?
 
@@ -20,7 +19,6 @@ To answer the question, we asked about whether covid cases and deaths were corre
 
 For Data Cleanup & Exploration
 The data concerning Covid-19 case reporting was gathered in a CSV from the World Health Organization. The CSV contains data about new covid cases, cumulative covid cases, new covid deaths, and cumulative covid deaths over the period of 2 years for all countries that reported it. The cleanup came by removing all countries except the USA, and removing all rows that did not report new cases. New cases were only reported once a week in the US. Data was split by Date on 4/19/2021 as the established date as the wide release for the vaccine.
-
 
 Data Analysis
 The first steps to analyze the data was to make line plots comparing new covid cases and new covid deaths before and after the vaccine
@@ -37,8 +35,7 @@ Discussion
 Post Mortem
 ·     If there was more time to do research on this topic I would have compared the data to other countries aside from the US. This would help us to better determine the vaccine’s effect on the correlation between covid cases and death.
 
-DONE
-------
+---------------------------------------------------------------
 
 2. Did the stock values for Amazon fluctuate around the time of the first release of the Covid-19 vaccine?
 
@@ -54,7 +51,6 @@ The first portion of this was taking the cleaned and relabelled csv file of the 
 The list was split between the two sides of April 19, 2021. 
 After partitioning the data by time frame, we filtered the list further to search for all Mondays through each time period. The World Health Organization updated their infection/death list for the United States weekly on Monday.
 
-
 Data Analysis
 We intended to graph this data correlated over time on a line graph. This graph covered the Date and Closing Stock of Amazon. 
 For the pre-vaccine portion of our time frame, we see a consistent climb in Amazon’s closing stock. Their stock nearly doubles by the time of the first vaccine release. 
@@ -66,9 +62,7 @@ Discussion
 After analyzing the data, it fell in line with out original statement that their overall profits doubled over the course of the pandemic. 
 If there was more time for research, we may try to find more comprehensive documentation for Amazon's stock values. When filtered it was discovered that in the list there were missing entries for certain days or weeks. This may need to be included in the margin of error with our current data reporting.
 
-DONE
-
-------
+---------------------------------------------------------------
 
 3. Describing the effect of new covid cases and deaths on Amazon stock volume and weighted average price, which time offset(s) have the strongest correlation (r-value)?
 The coding for this segment can be found in the file marked 'Sam' and found under the Jupyter files labelled:
@@ -80,7 +74,6 @@ For Data Cleanup & Exploration
 For this task, there is code for seeting offsets in the number of business days. It was assumed that five days equals a work week for the Amazon data, due to Monday through Friday stock reporting. 
 Similarly, 22 business days was assumed equal to a month. 1 to 3 week and 1 to 12 month date offsets were used to compare data correlation.
 
-
 Data Analysis
 Scatter plots were used to show correlation between new cases/stock price, new cases/stock volume, new deaths/stock price and new deaths/stock volume.
 R-squared values were calculated for each date offset and the 7 month and 1 month offsets were found to have the strongest correlations.
@@ -88,6 +81,8 @@ R-squared values were calculated for each date offset and the 7 month and 1 mont
 Discussion
 We showed a positive correlation between new cases and stock price at the 1 and 7 month date offsets. We showed a negative correlation between new cases and stock volume at the 1 and 7 month date offsets. 
 New deaths had no significant correlation to either stock price or stock volume. This is interesting because even though death is a more significant event than confirmed case, people seem to not behave rationally in response to the news of increases in the new case count.
+
+---------------------------------------------------------------
 
 4. How do the trends in Covid statistics and Walmart stock values compare?
 
@@ -105,6 +100,7 @@ For the second graph, it is a ratio line graph to see the relationship between n
 Discussion
 The first graph showed a stronger correlation than the second. New cases and volume weighted average price were strongly correlated as cases increased, Walmart's stock we up with it.
 
+---------------------------------------------------------------
 
 Next Steps for Further Analysis
 Analyze more stock tickers, or index funds too
@@ -114,6 +110,8 @@ Meta analysis of small vs. large business metrics during covid time period
     Statistics for people reported as “self-employed”
 Algorithm to find highest slopes and r-squared values
 
+---------------------------------------------------------------
+
 Data Limitations:
 Amazon stock price (NASDAQ: AMZN) doesn’t have a direct relationship with growth of the fulfillment division of the business
     AWS is a huge part of Amazon, largely affecting its stock price
@@ -121,9 +119,9 @@ Amazon stock price (NASDAQ: AMZN) doesn’t have a direct relationship with grow
 The Amazon stock price list has gaps of missing entries in occasional periods of time. This may affect representation. 
 In the World Health Organization’s database, information was aggregated on a weekly basis. We could not find a database that had this information tallied daily.
 
+---------------------------------------------------------------
 
-
-
+All visuals related to this project can be found in the word document file "Projectvisuals.docs".
 
 Bibliography
 
