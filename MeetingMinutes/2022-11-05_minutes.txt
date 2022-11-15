@@ -1,0 +1,56 @@
+11/5/22 Meeting Topics:
+-	Determine project flow
+o	Clean up data
+o	Come up with 6 visualizations (what stories do we want to tell?)
+	US Covid death rate (per capita) effect on trading volume
+	Etc.
+o	Review project requirements, making sure our visualizations meet requirements
+o	Pseudo-coding for visualization ideas
+-	Discuss whether or not we need more data / ideas
+o	We can use other countries data from WHO
+o	We can use CDC data
+o	We can use mercado libre stock info for South American analysis
+-	Assign jobs for 2 day sprint, will review in class on Monday
+
+
+General Notes:
+-	Project due Nov. 14th
+-	Try to put in around 4 hours by class Monday
+-	Each person attempt to do 2 visualizations
+-	Analyze data within 2020-01-03 to 2022-01-01 date range
+
+
+To do by Monday:
+Sam:
+-	Cleanup Amazon data
+o	Verify what volume value means and VW value
+o	Rename columns
+o	Convert unix time to YYYY-MM-DD
+
+Connor:
+-	Cleanup COVID data
+o	Create a dataframe of the US
+o	Distribute new cases and deaths across entire week
+
+James:
+-	Create a new repository
+-	Access NY times article: https://www.nytimes.com/2021/04/29/technology/amazons-profits-triple.html
+o	Or find another article if you can’t access it
+
+Matusola:
+-	Not present in meeting
+-	Potential action: finding additional covid data and doing cleanup process
+
+Everybody:
+-	Think of two visualization ideas
+o	Include a question you are asking of the data
+o	One question can cover two visualizations
+
+
+Potential actions for Monday:
+-	Follow up on above actions
+-	Merge data on dates
+-	Review our questions and view ideas
+-	Plan next steps
+
+
